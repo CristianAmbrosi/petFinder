@@ -3,7 +3,7 @@ Curso de Desenvolvimento Web com IONIC
 
 --------------------
 
-#### Cursos de Outono 2017
+#### Cursos de Outono 2017 - Ciências da Computação - URI
 
 --------------------
 
