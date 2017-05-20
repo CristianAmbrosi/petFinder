@@ -1,0 +1,59 @@
+<!--
+  Generated template for the RegistrarPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>Nova Ocorrência</ion-title>
+    <ion-buttons end>
+	    <button ion-button icon-only (click)="foto()">
+	    	<ion-icon name="md-camera"></ion-icon>
+	    </button>
+	</ion-buttons>
+  </ion-navbar>
+
+</ion-header>
+
+<ion-content padding>
+
+	<ion-list>
+
+		<ion-item>
+			<ion-label floating>Nome</ion-label>
+			<ion-input type="text" [(ngModel)]="registro.nome"></ion-input>
+		</ion-item>
+
+		<ion-item>
+			<ion-label floating>Telefone</ion-label>
+			<ion-input type="tel" [(ngModel)]="registro.telefone"></ion-input>
+		</ion-item>
+
+		<ion-item>
+			<ion-label floating >Tipo de Pet</ion-label>
+			<ion-select type="select" [(ngModel)]="registro.tipo">
+				<ion-option>Canino</ion-option>
+				<ion-option>Felino</ion-option>
+				<ion-option>Ave</ion-option>
+				<ion-option>Outro</ion-option>
+			</ion-select>
+		</ion-item>
+
+		<ion-item>
+			<ion-label floating>Características</ion-label>
+			<ion-textarea [(ngModel)]="registro.crt"></ion-textarea>
+		</ion-item>
+
+		<ion-card *ngIf="registro.foto">
+        	<img src="{{registro.foto}}"/>
+      	</ion-card>
+
+	</ion-list>
+		
+	<button [disabled]="isValid()" ion-button full (click)="registrar()">Registrar</button>
+	<span class="msg" *ngIf="isValid()">Preencha todos os campos</span>
+
+
+</ion-content>

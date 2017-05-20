@@ -1,0 +1,40 @@
+Curso Desenvolvimento Mobile - IONIC
+	
+Slide: http://slides.com/mateusluis/curso-desenvolvimento-mobile#/
+
+- Primeiro instalar o Node.js para que possamos instalar o IONIC.
+
+	- https://nodejs.org/en/download/
+
+	- Tem que por no path para que possamos executar os comando de qualquer lugar do sistema.
+	Ex:
+		sudo nano /etc/profile
+		#CUSTOM
+		export PATH="$PATH:/home/cristian/Downloads/node-v6.10.3-linux-x64/bin"
+
+- Ir no diretório onde será criado o projeto, dar o seguinte comando:
+	
+	npm install -g cordova ionic
+
+- Criar uma conta no site do IONIC 
+	
+	- https://apps.ionic.io/login
+
+	- Logar pelo no terminal:
+
+		- ionic login
+
+- Para criar o projeto e dar inicio, dentro do diretório de desenvolvimento:
+
+	- ionic start petFinder tabs
+
+- Para rodar o projeto:
+	
+	- ionic serve
+
+	- ou
+
+	- ionic serve --lab
+
+
+https://curso-mobile.herokuapp.com/registers
