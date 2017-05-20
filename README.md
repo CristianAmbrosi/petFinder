@@ -3,7 +3,7 @@ Curso de Desenvolvimento Web com IONIC
 
 --------------------
 
-#### Cursos de Outono 2017 - Ciências da Computação - URI
+#### Curso de Outono 2017 - Ciências da Computação - URI
 
 --------------------
 
@@ -12,9 +12,9 @@ Curso de Desenvolvimento Web com IONIC
 	- Envio de dados para um servidor;
 	- Loading de envio;
 	- Utilizar câmera do smartphone por um plugin;
-	-  Utilizar GPS por um plugin;
+	- Utilizar GPS por um plugin;
 	- Verificar se o usuário está online com o plugin Network;
-	- Alterar *alerts* com o plugin plugin Dialogs;
+	- Alterar *alerts* com o plugin Dialogs;
 	- Exibir dados enviados em outra tela;
 	- Utilizar Pull To Refresh.
 
