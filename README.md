@@ -1,4 +1,4 @@
-Curso de Desenvolvimento Web com IONIC
+Curso de Desenvolvimento Mobile com IONIC
 ===============================================
 
 --------------------
